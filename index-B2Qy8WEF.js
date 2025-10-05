@@ -26344,13 +26344,13 @@ const Rr = Re([
                       'div',
                       {
                         class:
-                          'flex flex-row items-center text-3xl font-extrabold text-amber-700 font-serif tracking-tight',
+                          'flex flex-row items-center text-2xl font-extrabold text-amber-700 font-serif tracking-tight',
                       },
                       [
                         C('img', {
                           src: W1,
                           alt: 'Duo Brew Logo',
-                          class: 'rounded-full h-15 w-auto',
+                          class: 'rounded-full h-5 w-auto',
                         }),
                         C('span', { class: 'ml-2' }, 'DUO BREW'),
                       ],
