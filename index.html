@@ -21,17 +21,31 @@
   <!-- Assets -->
   <link rel="icon" href="./img/logo.jpg" />
   <link rel="stylesheet" crossorigin href="./index-GmvtVAXD.css" />
+
+  <style>
+    .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+  </style>
 </head>
 
 <body>
 
   <!-- SEO CONTENT (pre-rendered) -->
-  <header>
+  <header class="sr-only">
     <h1>Dou Brew Coffee Shop</h1>
     <p>Serving coffee, milk tea, frappe, and refreshing cold drinks.</p>
   </header>
 
-  <main>
+  <main class="sr-only">
     <section>
       <h2>Our Drinks</h2>
       <ul>
@@ -42,7 +56,7 @@
       </ul>
     </section>
 
-    <section>
+    <section class="sr-only">
       <h2>Why Choose Dou Brew?</h2>
       <p>
         Dou Brew offers quality ingredients, consistent taste, and a welcoming
@@ -51,7 +65,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="sr-only">
     <p>© Dou Brew Coffee Shop</p>
   </footer>
 
